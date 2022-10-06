@@ -7,7 +7,7 @@ import './styles.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter> //Para que funcione en modo desarrollo cambiarlo por el BrowserRouter
       <HeroesApp />
     </HashRouter>
   </React.StrictMode>
